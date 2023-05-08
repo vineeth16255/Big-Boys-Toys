@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>LogIn-Page</title>
+   <link rel="stylesheet" href="./index.css">
+   <script src="./index.js"></script>
+</head>
+<body>
+    <div id="outerDiv">
+      <div id="innerDiv">
+         <h1 id="heading">LOGIN</h1>
+      <form >
+         <div id="emailDiv">
+            <input id="usid" class="in" placeholder="ENTER E-MAIL">
+         </div>
+         <span id="result"></span>
+         <div id="passdiv">
+            <input type="password" class="in" id="pass" placeholder="ENTER PASSWORD">
+            <img src="./images/open.png" onmousedown="passvis()" onmouseup="passhide()" id="visible">
+         </div>
+        <input type="button" id="but" value="login" onclick="logintohomepage()">
+      </form>
+      </div>
+    </div>
+</body>
+</html>
